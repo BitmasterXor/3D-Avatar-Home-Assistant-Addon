@@ -5,7 +5,7 @@
 # Three.js, TalkingHead, the Draco decoder and the stand-in avatar are embedded
 # too - nothing is fetched from a CDN at runtime.
 name: Aria
-version: "2.2.0"
+version: "2.3.0"
 slug: aria
 description: Full-body 3D talking avatar for your Assist pipeline, with a wake word. Fully offline - no CDN.
 arch:
