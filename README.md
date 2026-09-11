@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="PreviewImages/FullBody.png" alt="AVA — a full-body 3D avatar answering a question inside Home Assistant" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/AVABanner.png" alt="AVA — a full-body 3D avatar answering a question inside Home Assistant" style="max-width:100%; height:auto;">
 </p>
 
 <hr>
