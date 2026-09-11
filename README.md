@@ -11,12 +11,6 @@
   <img src="https://img.shields.io/badge/cloud%20calls-zero-critical?style=for-the-badge" alt="Zero cloud calls">
 </p>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 1 — HERO SHOT
-     Drop in a wide screenshot of AVA standing in her environment with the
-     dock and talk button visible. 1600x900 or wider looks best on GitHub.
-     Save as: images/hero.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/FullBody.png" alt="AVA — a full-body 3D avatar answering a question inside Home Assistant" style="max-width:100%; height:auto;">
 </p>
@@ -34,12 +28,6 @@
   <li><strong>Token never touches the browser:</strong> your Home Assistant long-lived access token is stored server-side in the add-on's <code>/data</code>, never in local storage.</li>
 </ul>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 2 — SIDEBAR / INGRESS
-     Show the Home Assistant sidebar with the "Avatar Assistant" entry
-     visible, and AVA open inside the HA page.
-     Save as: images/ingress-sidebar.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/MenuPreview.png" alt="AVA opening from the Home Assistant sidebar as Avatar Assistant" style="max-width:100%; height:auto;">
 </p>
@@ -59,11 +47,6 @@
   <li><strong>Single Static Binary:</strong> Installing compiles nothing. Prebuilt for three architectures, with the whole web app embedded.</li>
 </ul>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 3 — SETTINGS PANEL
-     Show the settings dialog open on the Avatar section with model cards.
-     Save as: images/settings-avatar.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/SettingsPanel.png" alt="The AVA settings panel, showing avatar model selection" style="max-width:100%; height:auto;">
 </p>
@@ -88,23 +71,18 @@
 
 <p>The wizard then tests your microphone, confirms your text-to-speech engine, and lets you pick an avatar and an environment before you finish.</p>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 4 — SETUP WIZARD
-     Show one of the wizard steps — the token test or the avatar picker.
-     Save as: images/setup-wizard.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/SetupWizard.png" alt="The AVA first-run setup wizard" style="max-width:100%; height:auto;">
 </p>
 
-<h2><span style="font-size: 20px; margin-right: 10px;">🎙️</span>Talking To Her</h2>
+<h2><span style="font-size: 20px; margin-right: 10px;">🎙️</span>Talking To Your Avatar</h2>
 
 <p>Tap the microphone button once and speak. When you stop talking the turn is sent automatically. Tap again to send immediately, or to stop her mid-answer.</p>
 
 <ul>
   <li><strong>Silence Timing:</strong> <strong>Settings → Voice</strong> tunes how long a pause counts as "finished".</li>
   <li><strong>Continuous Conversation:</strong> Turn on <em>Keep listening after she answers</em> for a back-and-forth that costs one tap rather than one per turn.</li>
-  <li><strong>Echo Suppression:</strong> Stops the avatar transcribing her own voice back. Essential on a wall tablet.</li>
+  <li><strong>Echo Suppression:</strong> Stops the avatar transcribing Your Avatars own voice back. Essential on a wall tablet.</li>
   <li><strong>Text Input:</strong> Type instead of talking at any time — useful on a device with no microphone permission.</li>
 </ul>
 
@@ -122,12 +100,6 @@
   <li><strong>Always visible:</strong> while the wake word is armed a permanent indicator sits at the top of the screen. It has no dismiss button and it is not hidden by wall display mode.</li>
 </ul>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 5 — WAKE WORD SETTINGS
-     Show the Voice settings section with the wake word field and the
-     armed indicator at the top of the screen.
-     Save as: images/wake-word.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/WakeWord.png" alt="Wake word configuration and the armed indicator" style="max-width:100%; height:auto;">
 </p>
@@ -144,12 +116,6 @@
   <li><strong>See-through mode:</strong> for everything else, hold the eye button in the settings header to look straight through the dialog.</li>
 </ul>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 6 — LIVE PLACEMENT BAR
-     Show the draggable tune bar over the live scene with the settings
-     dialog stowed. This is AVA's signature feature — make it a good shot.
-     Save as: images/live-placement.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/EnvPlacement.png" alt="Adjusting avatar placement live over the scene" style="max-width:100%; height:auto;">
 </p>
@@ -158,12 +124,6 @@
 
 <p>The last 100 messages are kept on the device and survive a reload. The <strong>History</strong> button in the dock opens them, with search and a copy button. They are stored per device, in the browser, and <strong>never sent to the server</strong> — clearing them here does not touch the record Home Assistant keeps of what it was asked.</p>
 
-<!-- ════════════════════════════════════════════════════════════════════════
-     SCREENSHOT 7 — HISTORY PANEL
-     Show the history drawer open with a few real messages and the
-     search box visible.
-     Save as: images/history.png
-     ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="PreviewImages/ChatHistory.png" alt="Searchable conversation history" style="max-width:100%; height:auto;">
 </p>
