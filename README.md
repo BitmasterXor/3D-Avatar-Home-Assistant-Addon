@@ -18,7 +18,7 @@
      Save as: images/hero.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/hero.png" alt="AVA — a full-body 3D avatar answering a question inside Home Assistant" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/FullBody.png" alt="AVA — a full-body 3D avatar answering a question inside Home Assistant" style="max-width:100%; height:auto;">
 </p>
 
 <hr>
@@ -41,7 +41,7 @@
      Save as: images/ingress-sidebar.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/ingress-sidebar.png" alt="AVA opening from the Home Assistant sidebar as Avatar Assistant" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/MenuPreview.png" alt="AVA opening from the Home Assistant sidebar as Avatar Assistant" style="max-width:100%; height:auto;">
 </p>
 
 <h2><span style="font-size: 20px; margin-right: 10px;">✨</span>Features</h2>
@@ -65,7 +65,7 @@
      Save as: images/settings-avatar.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/settings-avatar.png" alt="The AVA settings panel, showing avatar model selection" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/SettingsPanel.png" alt="The AVA settings panel, showing avatar model selection" style="max-width:100%; height:auto;">
 </p>
 
 <h2><span style="font-size: 20px; margin-right: 10px;">⚙️</span>Installation</h2>
@@ -94,7 +94,7 @@
      Save as: images/setup-wizard.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/setup-wizard.png" alt="The AVA first-run setup wizard" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/SetupWizard.png" alt="The AVA first-run setup wizard" style="max-width:100%; height:auto;">
 </p>
 
 <h2><span style="font-size: 20px; margin-right: 10px;">🎙️</span>Talking To Her</h2>
@@ -129,7 +129,7 @@
      Save as: images/wake-word.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/wake-word.png" alt="Wake word configuration and the armed indicator" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/WakeWord.png" alt="Wake word configuration and the armed indicator" style="max-width:100%; height:auto;">
 </p>
 
 <h2><span style="font-size: 20px; margin-right: 10px;">🎨</span>Placing An Avatar Or Environment</h2>
@@ -151,7 +151,7 @@
      Save as: images/live-placement.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/live-placement.png" alt="Adjusting avatar placement live over the scene" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/EnvPlacement.png" alt="Adjusting avatar placement live over the scene" style="max-width:100%; height:auto;">
 </p>
 
 <h2><span style="font-size: 20px; margin-right: 10px;">💬</span>Conversation History</h2>
@@ -165,7 +165,7 @@
      Save as: images/history.png
      ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="images/history.png" alt="Searchable conversation history" style="max-width:100%; height:auto;">
+  <img src="PreviewImages/ChatHistory.png" alt="Searchable conversation history" style="max-width:100%; height:auto;">
 </p>
 
 <h2><span style="font-size: 20px; margin-right: 10px;">🌐</span>Direct Access (Optional)</h2>
