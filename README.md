@@ -1,13 +1,14 @@
-# Aria — Home Assistant add-on
+# AVA — Home Assistant add-on
 
-A full-body 3D talking avatar for your Home Assistant, powered by the Assist
-pipeline you already have: your speech recognition, your language model, your
-voice, your house. Runs as a single static binary with the web app embedded —
-installing compiles nothing, even on a Raspberry Pi.
+**AVA — Avatar Virtual Assistant.** A full-body 3D talking avatar for your Home
+Assistant, powered by the Assist pipeline you already have: your speech
+recognition, your language model, your voice, your house. Runs as a single
+static binary with the web app embedded — installing compiles nothing, even on
+a Raspberry Pi.
 
 **Nothing is fetched from the internet.** Three.js, TalkingHead, the Draco
 decoder and the stand-in avatar are all inside the binary. The browser talks to
-exactly two things — this add-on and your Home Assistant — so Aria works on an
+exactly two things — this add-on and your Home Assistant — so AVA works on an
 isolated VLAN with the WAN unplugged, and keeps working when someone else's CDN
 has an outage. The wake word is the same story: audio goes to your own
 speech-to-text and nowhere else.
@@ -16,16 +17,17 @@ speech-to-text and nowhere else.
 
 1. In Home Assistant open **Settings → Apps** (called *Add-ons* before
    HA 2026.2) **→ App Store**.
-2. Menu **⋮ → Repositories**, paste this repository's URL, **Add**.
-3. Refresh the page, find **Aria** under *Aria Add-ons*, click **Install**,
+2. Menu **⋮ → Repositories**, paste
+   `https://github.com/BitmasterXor/AVA-Avatar-Virtual-Assistant`, **Add**.
+3. Refresh the page, find **AVA** under *AVA Add-ons*, click **Install**,
    then **Start**.
 
 ## Open it
 
-Aria supports **Ingress**: it appears in the Home Assistant sidebar and opens
-inside HA's own HTTPS page — no port, no certificate warning, nothing to
-configure. Hide or show the sidebar entry with the standard *Show in sidebar*
-toggle on the app's page.
+AVA supports **Ingress**: it appears in the Home Assistant sidebar as
+**Avatar Assistant** and opens inside HA's own HTTPS page — no port, no
+certificate warning, nothing to configure. Hide or show the sidebar entry with
+the standard *Show in sidebar* toggle on the app's page.
 
 On first open the setup wizard asks for:
 
@@ -50,6 +52,7 @@ costs one tap rather than one per turn.
 
 **Settings → Voice → Wake word.** Type whatever phrase you like — it is not
 limited to a fixed list, because it is not using a pretrained wake word model.
+The default is "hey ava".
 
 Detection runs entirely on your own hardware. The browser gates the microphone
 locally on loudness, and only short candidate clips are sent — to the same
